@@ -20,7 +20,7 @@ IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-% ８階調については，各自検討してください．
+% ８階調画像の生成
 IMG0 = ORG>32;
 IMG1 = ORG>64;
 IMG2 = ORG>128;

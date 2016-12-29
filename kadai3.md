@@ -9,7 +9,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 以上のコマンドにより、表示した結果を図１に示す．
 
 ![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai3_1.jpg)  
- 　　　　　　　　　　　　　　　　図1 原画像
+ 　　　　　　　　　　　　　　　　　　　図1 原画像
 
 次に、以下のコマンドを用いて輝度値が64以上の画素を1，その他を0に閾値処理したものを図2に示す。
 IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換

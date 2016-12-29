@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 colormap(gray);　%カラーをグレーにする
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_1.png)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_1.jpg)  
 図1 原画像
 
 ２階調画像の生成をするためには、
@@ -17,7 +17,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ２階調画像の生成結果を図２に示す．
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_2.png)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_2.jpg)  
 図2 ２階調画像
 
 同様に原画像を４階調画像にするには，
@@ -29,7 +29,7 @@ IMG = IMG0 + IMG1 + IMG2;
 
 とする．４階調画像の生成結果を図３に示す．
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_3.png)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_3.jpg)  
 図3 4階調画像
 
 ８階調画像
@@ -43,6 +43,6 @@ IMG5 = ORG>256;
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5;
 
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_4.png)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_4.jpg)  
 図4 8階調画像
 

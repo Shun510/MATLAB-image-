@@ -1,4 +1,4 @@
-﻿# 課題5レポート
+﻿# 課題6レポート
 
 標準画像「radio.jpg」を原画像とする．この画像は縦266画像，横400画素による長方形のディジタルカラー画像である．
 
@@ -8,7 +8,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 以上のコマンドにより、表示した結果を図１に示す．  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_1.jpg)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai6_1.jpg)  
 図1 原画像
 
 次に、以下のコマンドを用いて原画像を128による二値化した結果を、図２に示す  
@@ -16,7 +16,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 IMG = ORG>128; % 128による二値化  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_2.jpg)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai6_2.jpg)  
 図2　 128による二値化
 
 
@@ -25,5 +25,5 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 IMG = dither(ORG); % ディザ法による二値化  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_3.jpg)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai6_3.jpg)  
 図３　ディザ法による二値化

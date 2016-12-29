@@ -8,7 +8,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 以上のコマンドにより、表示した結果を図１に示す．
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_1.jpg) 
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_1.jpg)  
 図1 原画像
 
 次に、以下のコマンドを用いて図１の画像を判別分析法を用いて二値化させた結果を、図２に示す
@@ -37,5 +37,5 @@ end;
 IMG = ORG > max_thres;  
 imagesc(IMG); colormap(gray); colorbar;  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_2.jpg)
-図2 ヒストグラム
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai5_2.jpg)  
+図2 判別分析法による二値化

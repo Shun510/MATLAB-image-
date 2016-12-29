@@ -8,7 +8,7 @@ colormap(gray);　%カラーをグレーにする
 によって，原画像を読み込み，表示した結果を図１に示す．
 
 ![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai2_1.jpg)  
-図1 原画像
+ 図1 原画像
 
 ２階調画像の生成をするためには、
 

@@ -35,7 +35,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_4.jpg)
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_4.jpg)  
 図４　メディアンフィルタによる雑音除去
 
 
@@ -45,5 +45,6 @@ f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計  
 IMG = filter2(f,IMG,'same'); % フィルタの適用  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_5.jpg)  
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_5.jpg)
+  
 図５　フィルタ設計による雑音除去

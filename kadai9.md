@@ -27,7 +27,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
   
 
 ![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_3.jpg)  
-図３　平滑化フィルタにより雑音除去をした原画像
+図３　平滑化フィルタによる雑音除去
 
 
 また、メディアンフィルタでの雑音除去のコマンド、および結果を以下に示す。
@@ -35,15 +35,15 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
-![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_4.jpg)  
-図４　メディアンフィルタにより雑音除去をした画像
+![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_4.jpg)
+図４　メディアンフィルタによる雑音除去
 
 
+以下により、先鋭化をはかる
 
-
-f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計  
+f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計  
 IMG = filter2(f,IMG,'same'); % フィルタの適用  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
 ![原画像](https://github.com/Shun510/MATLAB2/blob/master/images/kadai9_5.jpg)  
-図５　フィルタを適用した画像
+図５　フィルタ設計による雑音除去

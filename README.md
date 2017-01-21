@@ -3,3 +3,5 @@
 
 レポート書き方
 http://codechord.com/2012/01/readme-markdown/
+
+その他・・・
